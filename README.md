@@ -1,2 +1,4 @@
 # ISP Algorithm Study and Projects
-This is my project to study ISP algorithms, including DPC,BLC,LSC,AWB,Demosiac and CCM. A raw image reader project is created to similate a simple ISP pipeline to process a raw file and show it.
+This is my project to study ISP algorithms, including DPC, BLC, LSC, AWB,Demosiac and CCM. A few different algorithms were tested to compare the output difference. In the end a raw image reader project is created to simulate a simple ISP pipeline to process a raw file and show it. In this simple RAW reader, a few steps were included: Extract CFA from RAW  Linearization and Normalization White Balancing Demosiac Color Space Correction Brightness and Gamma correction. Below are RAW image, after white balance, after Demosiac, after CSC and after Gamma correction respectively. The final result is not perfect and gamma correction needs some fine tuning. 
+![Figure_1](https://github.com/MengqinShen/Camera-ISP-Algorithm/assets/116143563/1eb89e77-75df-4106-b094-f903c0717a8e)
+![Figure_2](https://github.com/MengqinShen/Camera-ISP-Algorithm/assets/116143563/f7b11658-13f6-4b47-8695-faf9d6933923)
